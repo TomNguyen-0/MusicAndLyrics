@@ -1,0 +1,19 @@
+.music-video-container{
+    max-width: 90%;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+
+}
+.music-video-container iframe{
+    margin: 0 auto;
+    display:block;
+}
+.lyrics-container{
+    text-align:center;
+}
+.lyrics-container p{
+    display:inline-block;
+    text-align:left;
+}
