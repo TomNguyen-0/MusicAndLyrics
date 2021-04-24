@@ -16,7 +16,6 @@
     right: 0;
     bottom: 0;
     position  : fixed ;
-    padding-bottom: 300px;
     /* top : 100px; */
     display:block;
 }
