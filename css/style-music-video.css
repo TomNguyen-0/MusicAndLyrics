@@ -23,6 +23,7 @@
 .lyrics-container{
     /* padding-top: 600px; */
     /* text-align: center; */
+    padding-bottom: 300px;
     padding-left: 100px;
 }
 .lyrics-container p{
