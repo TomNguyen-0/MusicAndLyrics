@@ -1,11 +1,13 @@
+
 .music-video-container{
     /* max-width: 90%; */
     width: 300;
     height: 200;
     margin: 10px auto;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     background: #f4f7f8;
     border-radius: 8px;
+    z-index: -3;
     
 }
 /* The music video player*/
