@@ -2,6 +2,8 @@
 .main-product-container{
     width:200px;
     height:100px;
+    /* height: 10px; */
+    /* width: 10px; */
     margin: 3px 5px;
     border-radius: 9px;
     border: 1px solid grey;
