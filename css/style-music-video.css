@@ -5,6 +5,9 @@
 .woman{
     color:crimson;
 }
+.both{
+    color:darkmagenta;
+}
 .music-video-container{
     /* max-width: 90%; */
     width: 300;
