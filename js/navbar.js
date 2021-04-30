@@ -6,6 +6,8 @@ function navbar(){
             <div class="navbar-nav">
                 <a class="nav-link" aria-current="page" href="index.html" id="homePage">Home</a>
                 <a class="nav-link" href="music.html" id="musicPage">Music</a>
+               <a class ="nav-link" href="Potato.html" id="PotatoPage">Potato</a>
+
 
             </div>
         </div>
@@ -17,6 +19,9 @@ function navbar(){
     }else if(title =="Music"){
         $(".navbar").append(syntax);
         $("#musicPage").addClass("active");
+    }else if(title =="Potato"){
+        $(".navbar").append(syntax);
+        $("#PotatoPage").addClass("active");
     }else if(title =="Music-Lyrics"){
         var syntax=`
         <div class="container-fluid">
@@ -24,7 +29,7 @@ function navbar(){
                 <div class="navbar-nav">
                     <a class="nav-link" aria-current="page" href="../index.html" id="homePage">Home</a>
                     <a class="nav-link" href="../music.html" id="musicPage">Music</a>
-    
+                    <a class ="nav-link" href="../Potato.html" id="PotatoPage">Potato</a>
                 </div>
             </div>
         </div>
