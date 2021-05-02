@@ -21,10 +21,8 @@
 }
 /* The music video player*/
 .music-video-container iframe{
-    /* width: 400px; */
-    /* height: 300px; */
-    width: 1000px;
-    height: 700px;
+    width: 400px;
+    height: 300px;
     margin: 0 auto;
     right: 0;
     bottom: 0;
@@ -41,4 +39,11 @@
 .lyrics-container p{
     display:inline-block;
     text-align:left;
+}
+
+@media (min-width:1399px){
+    .music-video-container iframe{
+        width: 1000px;
+        height: 700px;
+    }
 }
