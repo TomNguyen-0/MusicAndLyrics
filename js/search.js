@@ -24,10 +24,14 @@ function mySearch() { //link isnt showing up
 function search(key_word, id_name){
     var database = myDatabase();
     var syntax = "";
+    var db_title = "";
     // $(".baby-music").html('');
     // console.log(key_word);
     for (var i = 0; i < database.length ; i++){
-        if (database[i].title.toLowerCase().includes(key_word.toLowerCase())){
+        db_title = database[i].title.toLowerCase();
+        db_title = db_title.replace(/_|-|.html/g, ' ');
+        if (db_title.includes(key_word.toLowerCase())){
+            console.log(db_title);
             syntax = create_link(database[i].title);
             $(id_name).append(syntax);
         }
