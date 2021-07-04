@@ -31,7 +31,7 @@ function search(key_word, id_name){
         db_title = database[i].title.toLowerCase();
         db_title = db_title.replace(/_|-|.html/g, ' ');
         if (db_title.includes(key_word.toLowerCase())){
-            console.log(db_title);
+            // console.log(db_title);
             syntax = create_link(database[i].title);
             $(id_name).append(syntax);
         }
@@ -43,7 +43,8 @@ function mySearchDisplay(section_id){
     // $(".search-result").html('');
     // $(".baby-music").html('');
     var search_word_txt = $("#petSearchServiceTxt")[0].value;
-    search(search_word_txt, ".search-result");
+    // search(search_word_txt, ".search-result");
+    search(search_word_txt, section_id);
 }
 
 function initSearch() {

@@ -6,7 +6,7 @@ function init(){
     navbar();
     var section_id = ".potato-music";
     var user = "potato";
-    // initSearch();
+
     display_menu(user, section_id);
     $('#petSearchServiceTxt').keydown(function(){
         mySearchDisplay(section_id);
